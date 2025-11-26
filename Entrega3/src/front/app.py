@@ -28,6 +28,11 @@ st.write(
     "(caminar, girar, sentarse, levantarse) y el sistema te dirá "
     "la actividad dominante."
 )
+st.write(
+    "Consentimiento: Al subir un video, aceptas que este será procesado "
+    "para la detección de actividades. "
+    "Sus videos no serán almacenados ni compartidos y tampoco se utilizarán para el entrenamiento del modelo."
+)
 
 uploaded_file = st.file_uploader("📹 Sube un video", type=["mp4", "avi", "mov"])
 
